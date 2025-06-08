@@ -1,5 +1,5 @@
 {
-  "name": "video-scraper",
+  "name": "fuckingsimpledownloader",
   "version": "1.0.0",
   "description": "A Node.js and HTML-based video scraper that uses yt-dlp.",
   "main": "server.js",
