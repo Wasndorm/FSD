@@ -199,7 +199,6 @@ butn:active {
     right: 0;
     justify-content: center;
     align-items: center;
-    pointer-events: none;
     opacity: 0;
     transform: translateY(-30px);
     transition: cubic-bezier(.14, .82, 0, .99) 0.5s;
