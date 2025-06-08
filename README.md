@@ -24,6 +24,8 @@ Can be changed by editing `port` and `webServer` variables.
 - Animations should be improved.
 - Sometimes YouTube formats are not provided from the server correctly.
   - (e.g. options other than 360p is not available, etc.)
+- Website is not responsive.
+  - The reason behind is that this is a quick-made project. I am aiming to improve and develop it more over time.
 ## TO-DO
 - insert link to fetch after the host url
   - e.g. fsd.10113.icu/https://videowebsite/watch/abcdef123
