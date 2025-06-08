@@ -29,7 +29,7 @@ const wss = new WebSocketServer({ server });
 console.log('websocket is online. hosted at ', port);
 
 wss.on('connection', (ws) => {
-    console.log('someone here');
+ //   console.log('someone here');
 
     ws.on('message', async (message) => {
         let parsedMessage;
@@ -54,7 +54,7 @@ wss.on('connection', (ws) => {
             return;
         }
 
-        console.log(`im fetching: ${videoUrl}`);
+  //      console.log(`im fetching: ${videoUrl}`);
 
         try {
             const videoInfo = await ytDlpExec(videoUrl, {
@@ -77,11 +77,11 @@ wss.on('connection', (ws) => {
     });
 
     ws.on('close', () => {
-        console.log('someone quit');
+ //       console.log('someone quit');
     });
 
     ws.on('error', (error) => {
-        console.error('websocket error:', error);
+//        console.error('websocket error:', error);
     });
 });
 
