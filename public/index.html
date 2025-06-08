@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+
+    <link href="fuck.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSD</title>
+</head>
+
+<body>
+    <ttl>
+        <span>
+            FuckingSimpleDownloader
+        </span>
+        <span class="material-symbols-outlined" id="menu">
+            menu
+        </span>
+    </ttl>
+    <shit>
+        <sidebar>
+            <tit>
+                FSD
+            </tit>
+            <category>about</category>
+            <bottun>What the fuck is this?</bottun>
+            <bottun>Supported services list</bottun>
+            <category>other</category>
+            <bottun onclick="openUp('https://10113.icu/')">/ (10113.icu)</bottun>
+            <bottun onclick="openUp('https://github.com/Wasndorm/FSD/')">FSD Github</bottun>
+        </sidebar>
+    </shit>
+
+    <div class="ctr">
+        <div style="display: flex; gap: 5px; width: 100%;">
+            <input placeholder="link" id="linkInput"><butn id="paste">paste</butn>
+        </div>
+        <butn id="fetch">fetch</butn>
+    </div>
+
+    <div class="ldg" id="ldg">
+        <div style="display:flex;gap:10px;" class="idk">
+            <span class="spinner"></span>
+            <span id="vidlink">
+                https://youtube.com/watch?q=dQw4w9WgXcQ
+            </span>
+        </div>
+        <div id="loading-status" class="loading-status"></div>
+    </div>
+
+    <div id="results-container">
+    </div>
+
+
+    <script src="fuck.js"></script>
+</body>
+
+</html>
