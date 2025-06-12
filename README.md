@@ -1,4 +1,4 @@
-# DO NOT USE THIS
+# ⚠ DO NOT USE THIS
 ### I will be maintaining this project with low priority and as a hobby, so do not rely on this since there are lots of better options. This warning will be removed when the project is stable enough and ready for production. You can fork to use it as a base for your own project.
 
 # FuckingSimpleDownloader
